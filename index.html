@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emit Test - Natasha Trpcheva</title>
+        <!-- BootStrap4 CDN -->
+        <link 
+            rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+            crossorigin="anonymous">
+        <!-- FontAwesome4 CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="top-part bg-dark p-2 d-flex justify-content-between">
+                <h1 class="text-white">Take Lessons</h1>
+                <div class="top-left-corner d-flex">
+                    <i class="fa fa-bullhorn mr-3"></i>
+                    <select name="user-controls" id="user-controls" class="form-control bg-dark text-white">
+                        <option value="Natasha Trpcheva">Natasha Trpcheva</option>
+                    </select>
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">DASHBOARD</a>
+                    <a class="nav-item nav-link" href="#">CALENDAR</a>
+                    <a class="nav-item nav-link" href="#">CLIENTS</a>
+                    <a class="nav-item nav-link" href="#">FINANCES</a>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main class="d-flex">
+            <aside class="p-5">
+                <div class="contacts-search">
+                    <button class="btn btn-success w-100">+ New Contact</button>
+                    <div class="form-group w-100 py-3">
+                        <input type="text" class="form-group-item p-2 w-100" placeholder="Search...">
+                    </div>
+                </div>
+                <div class="filter-group d-flex">
+                    <p>Sort By:</p>
+                    <select name="filter-by" id="filter-by" class="form-control">
+                        <option value="Active Schedule">Active</option>
+                        <option value="Age">Age</option>
+                    </select>
+                </div>
+                <ul>
+                    <li>
+                        <img src="https://i.ya-webdesign.com/images/avatar-png-1.png" alt="avatar">
+                        <p>Mark <span class="text-bold">Applebee</span></p>
+                    </li>
+                    <li>
+                        <img src="https://i.ya-webdesign.com/images/avatar-png-1.png" alt="avatar">
+                        <p>Natasha <span class="text-bold">Trpcheva</span></p>
+                    </li>
+                    <li>
+                        <img src="https://i.ya-webdesign.com/images/avatar-png-1.png" alt="avatar">
+                        <p>Mark <span class="text-bold">Applebee</span></p>
+                    </li>
+                    <li>
+                        <img src="https://i.ya-webdesign.com/images/avatar-png-1.png" alt="avatar">
+                        <p>Mark <span class="text-bold">Applebee</span></p>
+                    </li>
+                    <li>
+                        <img src="https://i.ya-webdesign.com/images/avatar-png-1.png" alt="avatar">
+                        <p>Mark <span class="text-bold">Applebee</span></p>
+                    </li>
+                    
+                </ul>
+            </aside>
+            <section class="main-section p-5">
+                <div class="hero-section">
+                    <div class="title-section d-flex">
+                        <h2 class="mr-2">Mark Applebee</h2>
+                        <button class="btn btn-secondary">Edit</button>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col-sm-12 col-lg-6">
+                            <img 
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Skater_Tony_Hawk.jpg/1200px-Skater_Tony_Hawk.jpg" 
+                                alt="NAJJAKIOT"
+                                class="img-fluid w-50">
+                                <p class="text-small mt-2">Notes</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, vero voluptates cupiditate sint, ut voluptatibus, nulla temporibus alias itaque labore dolorem odio debitis obcaecati similique qui. Veritatis tenetur, nisi corporis fugit nihil libero, odio eveniet sint suscipit vitae corrupti ullam ducimus quasi incidunt quod? Dolorum laudantium officia ipsam iste maiores?</p>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="main-right-content d-flex justify-content-between">
+                                <div class="main-right-subgroup">
+                                    <p>Sex</p>
+                                    <p class="text-bold">Male</p>
+                                </div>
+                                <div class="main-right-subgroup">
+                                    <p>Age</p>
+                                    <p class="text-bold">32</p>
+                                </div>
+                                <div class="main-right-subgroup">
+                                    <p>Birthday</p>
+                                    <p class="text-bold">November 11, 1982</p>
+                                </div>
+                            </div>
+                            <div class="main-right-content py-5">
+                                <div class="main-right-subgroup">
+                                    <p >Address</p>
+                                    <p class="text-bold">Partizanska br. 2</p>
+                                </div>
+                            </div>
+                            <div class="main-right-content d-flex justify-content-between">
+                                <div class="main-right-subgroup">
+                                    <p>Home</p>
+                                    <p class="text-bold">123-456-789</p>
+                                </div>
+                                <div class="main-right-subgroup">
+                                    <p>Primary Email</p>
+                                    <p class="text-bold">test@test.com</p>
+                                </div>  
+                            </div>
+                            <div class="main-right-content d-flex justify-content-between py-5">
+                                <div class="main-right-subgroup">
+                                    <p>Cell</p>
+                                    <p class="text-bold">123-456-789</p>
+                                </div>
+                                <div class="main-right-subgroup">
+                                    <p>Primary Email</p>
+                                    <p class="text-bold">test@test.com</p>
+                                </div>  
+                            </div>
+                            <div class="main-right-content">
+                                <p>Billing Contact</p>
+                                <img src="https://i.ya-webdesign.com/images/avatar-png-1.png" class="img-fluid" alt="avatar"> <span>Petko Trajkovski</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="schedule">Schedule</h4>
+                <div class="schedule-item row">
+                    <div class="col-1 bg-warning"></div>
+                    <div class="col-11 card">
+                        <div class="card-body">
+                            <h5 class="card-title">Tuesday 9:00 AM</h5>
+                            <div class="dropdown-divider"></div>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="mt-2 bg-dark p-2">
+            <h2 class="text-white text-center">Developed by Natasha Trpcheva</h2>
+        </footer>
+        <!-- jQuery Dependency -->
+        <script 
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+            crossorigin="anonymous"></script>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+            crossorigin="anonymous"></script>
+        <script 
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+            crossorigin="anonymous"></script>
+            <!-- Custom JS -->
+        <script src="./app.js"></script>
+    </body>
+</html>

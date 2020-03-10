@@ -1,0 +1,60 @@
+.fa {
+    font-size: 32px;
+    color: white;
+}
+
+.nav-item.nav-link {
+    color: white!important;
+}
+
+aside {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.filter-group {
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+ul {
+    list-style-type: none;
+}
+ul li {
+    display: flex;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+ul li:hover {
+    transition: 0.4s;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+ul li img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.main-right-subgroup p {
+    margin: 0;
+}
+
+.main-right-content img {
+    width: 50px;
+}
+.schedule {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+.col-1 {
+    width: 10px;
+}
